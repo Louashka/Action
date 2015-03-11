@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Акция+</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="views_array">
+        <item>Авто</item>
+        <item>Аптеки и оптика</item>
+        <item>Аудио/Видео</item>
+        <item>Банки</item>
+        <item>Вещи для дома</item>
+        <item>Детские товары</item>
+        <item>Зоомагазины</item>
+        <item>Кафе и Рестораны</item>
+        <item>Книжные магазины</item>
+        <item>Компьютеры и оргтехника</item>
+        <item>Косметика и парфюмерия</item>
+        <item>Мебель</item>
+        <item>Обувь</item>
+        <item>Одежда</item>
+        <item>Садоводство</item>
+        <item>Салоны красоты</item>
+        <item>Спорттовары</item>
+        <item>Сувениры</item>       
+        <item>Сумки и аксессуары</item> 
+        <item>Текстиль</item>              
+        <item>Телефоны и аксессуары</item>
+        <item>Туризм</item>              
+        <item>Ювелирные изделия</item>                           
+    </string-array>
+    <string name="menu">Меню</string>
+    <string name="test">test</string>
+    
+    <string name="my_actions">Мои акции</string>
+    <string name="create_action">Создать акцию</string>
+    <string name="page">Page:</string>
+    <string name="login">Логин</string>
+    <string name="pswrd">Пароль</string>
+    <string name="logo_image">Логотип</string>
+    <string name="cnpswrd">Подтвердите пароль</string>
+    <string name="email">E-mail</string>
+    <string name="ok">OK</string>
+    <string name="ok_action">Принять</string>
+    <string name="cancel">Отмена</string>
+    <string name="company">Название компании</string>
+    <string name="name_action">Название акции</string>
+    <string name="start_action">Начало акции</string>
+    <string name="end_action">Конец акции</string>
+    <string name="choose_date">Дата</string>
+    <string name="set_date">Установить дату</string>
+    <string name="continue_action">Продолжить</string>
+    <string name="describtion">Описание акции</string>
+    <string name="ready">Готово</string>
+    <string name="image1">Акция1</string>
+    <string name="add_action">Добавить акцию</string>
+    <string name="log_out">Выход</string>
+    <string name="common">Общее</string>
+    <string name="adress">Место проведения</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    
+        
+    <string-array  name="screen_array">
+        <item>Каталог</item>
+        <item>Подписка</item>
+        <item>Мои акции</item>
+        <item>Создать акцию</item>
+        <item>Войти</item>
+    </string-array>
+    
+    <string name="all_categories">Все категории</string>
+    <string name="resturants">Кафе и Рестораны</string>
+    <string name="clubs">Клубы</string>
+    <string name="clothes">Одежда</string>
+    <string name="appliances">Бытовая техника</string>
+    <string name="disks">CD, DVD, Blue-Ray</string>
+    <string name="office_equipment">Компьютеры и оргтехника</string>
+    <string name="beauty_salons">Салоны красоты</string>
+    <string name="bookstores">Книжные магазины</string>
+    <string name="authorization">Личный кабинет</string>
+    <string name="about_program">О приложении</string>
+    <string name="forgetPassword">Забыли пароль?</string>
+    <string name="entry">Войти</string>
+    <string name="registration">Регистрация</string>
+    <string name="retrieve_title_template">Retrieve %s objects</string>
+    <string name="nicname">Louashka</string>
+    <string name="location">г. Грозный</string>
+    <string name="furniture">Мебель</string>
+    <string name="perfumes">Косметика и парфюмерия</string>
+    <string name="sports">Спорттовары</string>
+    <string name="souvenirs">Сувениры</string>
+    <string name="shoes">Обувь</string>
+    <string name="bags">Сумки и аксессуары</string>
+    <string name="banks">Банки</string>    
+    <string name="auto">Авто</string>
+    <string name="audio">Аудио/Видео</string>
+    <string name="telephones">Телефоны и аксессуары</string> 
+    <string name="tourism">Туризм</string>
+    <string name="child_prod">Детские товары</string>
+    <string name="horticulture">Садоводство</string>
+    <string name="jewelry">Ювелирные изделия</string>
+    <string name="pet_shops">Зоомагазины</string>
+    <string name="pharmacies">Аптеки и оптика</string>
+    <string name="textile">Текстиль</string>
+    <string name="house_things">Вещи для дома</string>
+    <string name="search">Поиск</string>
+    <string name="refresh">Обновить</string>   
+    <string name="search_hint">Найти акцию</string>  
+    <string name="choose_category">Выбрать категорию</string> 
+    <string name="categories">Категории</string> 
+    <string name="empty_category">Акции отсутствуют</string> 
+    <string name="edit">Редактировать</string> 
+    <string name="delete">Удалить</string> 
+    <string name="delete_title">Удалить акцию</string> 
+    <string name="delete_message">Вы действительно хотите удалить акцию?</string> 
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="filter">Фильтр категорий</string>
+    <string name="favourites">Подписка</string>
+    <string name="text_recovery">Введите Ваш логин, и на Ваш e-mail, зарегистрированный 
+                                 на сайте, мы вышлем пароль.</string>
+    <string name="recovery_button">Восстановить пароль</string>
+    <string name="delete_favourites_title">Удалить акцию из Подписок</string> 
+    <string name="delete_favourites">Вы действительно хотите удалить акцию из Подписок?</string>
+    <string name="add_templ">Добавить свой шаблон</string> 
+
+</resources>

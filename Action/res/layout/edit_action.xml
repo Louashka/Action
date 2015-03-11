@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/edit_categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SpinnerAppTheme" />    
+
+    <EditText
+        android:id="@+id/edit_name_of_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/drawer_item_color"
+        android:background="@drawable/apptheme_edit_text_holo_dark"
+        android:ems="10"
+        android:inputType="text" >
+
+    </EditText>
+    <requestFocus />
+
+    <TextView
+        android:id="@+id/edit_start_action"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/drawer_item_color"
+        android:text="@string/start_action" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/edit_actionStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/drawer_item_color"
+            android:background="@drawable/apptheme_edit_text_holo_dark"
+            android:ems="10"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/edit_date1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/actionbar_background"
+            android:onClick="onClick"
+            android:text="@string/choose_date"
+            android:textColor="@color/drawer_item_color" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/edit_end_of_action"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/drawer_item_color"
+        android:text="@string/end_action" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/edit_actionEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/drawer_item_color"
+            android:background="@drawable/apptheme_edit_text_holo_dark"
+            android:ems="10"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/edit_end_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/actionbar_background"
+            android:onClick="onClick1"
+            android:text="@string/choose_date"
+            android:textColor="@color/drawer_item_color" />
+
+    </TableRow>
+
+    <EditText
+        android:id="@+id/edit_acAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/drawer_item_color"
+        android:background="@drawable/apptheme_edit_text_holo_dark"
+        android:ems="10"
+        android:inputType="text"
+        android:maxLength="15" />
+
+    <EditText
+        android:id="@+id/edit_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/drawer_item_color"
+        android:background="@drawable/apptheme_edit_text_holo_dark"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxLength="60" />
+
+    <Button
+        android:id="@+id/edit_continue_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/actionbar_background"
+        android:onClick="onClickEdit"
+        android:text="@string/continue_action"
+        android:textColor="@color/drawer_item_color" />
+
+</LinearLayout>

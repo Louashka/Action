@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility">
+        <ignore path="src/com/louisapps/action/TwoWayView.java" />
+    </issue>
+    <issue id="DrawAllocation">
+        <ignore path="src/com/louisapps/action/HorizontialListView.java" />
+    </issue>
+    <issue id="InflateParams" severity="ignore">
+        <ignore path="src/com/louisapps/action/ItemListAllCategoriesAdapter.java" />
+        <ignore path="src/com/louisapps/action/adapters/ItemHorizontalListAdapter.java" />
+        <ignore path="src/com/louisapps/action/adapters/ItemListAllCategoriesAdapter.java" />
+        <ignore path="src/com/louisapps/action/adapters/ItemListBaseAdapter.java" />
+        <ignore path="src/com/louisapps/action/adapters/ItemListPaidBaseAdapter.java" />
+        <ignore path="src/com/louisapps/action/adapters/ItemListResturantsAdapter.java" />
+        <ignore path="src/com/louisapps/action/adapters/ItemListUserActionsAdapter.java" />
+        <ignore path="src/com/louisapps/action/adapters/UserActionsListAdapter.java" />
+    </issue>
+</lint>
